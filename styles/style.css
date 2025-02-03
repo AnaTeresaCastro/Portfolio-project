@@ -1,0 +1,33 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", serif;
+}
+h1 {
+  font-family: "Quicksand", serif;
+  font-size: 96px;
+}
+p {
+  font-family: "Poppins", serif;
+  font-size: 36px;
+}
+.hero {
+  text-align: center;
+  padding: 100px;
+  background-color: var(--secondary-color);
+}
+.btn-branding {
+  font-size: 18px;
+  background: var(--branding-color);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
