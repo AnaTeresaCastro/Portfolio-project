@@ -25,8 +25,9 @@ p {
   background-color: var(--secondary-color);
 }
 .btn-branding {
-  font-size: 18px;
   background: var(--branding-color);
+  font-size: 18px;
+
   color: white;
   padding: 15px 30px;
   border-radius: 4px;
