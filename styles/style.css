@@ -54,10 +54,10 @@ p {
 .container h2 {
   font-size: 46px;
 }
-.about-section h1 {
+.container-content h1 {
   font-size: 64px;
 }
-.about-section h2 {
+.container-content h2 {
   font-size: 18px;
   margin: 30px;
 }
