@@ -61,6 +61,12 @@ p {
   font-size: 18px;
   margin: 30px;
 }
+.logo {
+  max-height: 40px;
+}
+.active {
+  color: var(--branding-color) !important;
+}
 
 @media (max-width: 900px) {
   h1 {
