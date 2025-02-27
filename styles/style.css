@@ -17,19 +17,19 @@ h6 {
   font-family: var(-heading-font-family);
 }
 h1 {
-  font-size: 96px;
+  font-size: 64px;
 }
 p {
   font-family: var(--default-font-family);
   font-size: 16px;
   line-height: 30px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 .hero {
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -55,21 +55,21 @@ h4 {
   padding: 15px 30px;
   border-radius: 4px;
 }
+.btn-branding-outline:hover {
+  border: 1px solid var(--branding-color);
+}
 .container {
-  padding: 160px 20px;
+  padding: 30px 20px;
 }
 .container h2 {
   font-size: 46px;
 }
-.container-content h1 {
-  font-size: 64px;
-}
 .container-content h2 {
   font-size: 18px;
-  margin: 30px;
 }
 .logo {
   max-height: 40px;
+  margin: 10px;
 }
 .active {
   color: var(--branding-color) !important;
@@ -86,7 +86,12 @@ footer .email-link {
   color: black;
   font-size: 20px;
 }
-
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+a {
+  font-size: 20px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -96,9 +101,6 @@ footer .email-link {
   }
   p {
     padding: 0;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .project-description {
     padding: 0;
