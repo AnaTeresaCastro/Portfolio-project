@@ -89,20 +89,28 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--branding-color);
 }
-a {
+.contact-content a {
   font-size: 20px;
+}
+.project-description {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 36px;
   }
   h2 {
-    font-size: 44px;
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 26px;
   }
   p {
     padding: 0;
+    margin: 0;
   }
   .project-description {
+    text-align: center;
     padding: 0;
+    margin: 0;
   }
 }
